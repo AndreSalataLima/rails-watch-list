@@ -34,8 +34,8 @@ ActiveRecord::Schema.define(version: 2022_09_07_213313) do
   create_table "movies", force: :cascade do |t|
     t.string "title"
     t.text "overview"
-    t.string "poster_url"
-    t.float "rating"
+    t.text "poster_url"
+    t.string "rating"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
