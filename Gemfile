@@ -54,3 +54,4 @@ gem "font-awesome-sass", "~> 5.15"
 gem "simple_form", github: "heartcombo/simple_form"
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+gem "turbo-rails", "~> 1.0"
